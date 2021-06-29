@@ -9,22 +9,21 @@
   border-radius: 12px;
   transition: all 1s ease;
 }
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(.//images/bg.jpg)no-repeat;
+  background: url(.//images/bg.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
-.container{
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +31,7 @@ body{
   height: 750px;
   perspective: 1200px;
 }
-.card{
+.card {
   position: relative;
   display: flex;
   justify-content: center;
@@ -41,24 +40,24 @@ body{
   height: 600px;
   transform-style: preserve-3d;
 }
-.card .card-bg{
+.card .card-bg {
   position: absolute;
 }
-.card .card-bg img{
+.card .card-bg img {
   z-index: 1;
   width: 100%;
   border-radius: 10px;
 }
-.card .images{
+.card .images {
   z-index: 2;
 }
-.card .images .logo{
+.card .images .logo {
   z-index: 3;
   position: absolute;
   width: 400px;
   transition: all 0.3s ease-out;
 }
-.card .images .pika{
+.card .images .pika {
   z-index: 2;
   width: 400px;
   transition: all 0.3s ease-out;
