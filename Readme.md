@@ -1,3 +1,9 @@
-# 3D Pokemon Card using HTML CSS And JAVASCRIPT
-I do not own the Images and it may be subject to copyright. 
-For more of my projects you can find me at https://github.com/TushantMan
+# 3D Pokemon Card
+###  3D Pokemon Card
+
+- 3D Pokemon Card built using HTML, CSS, & JAVASCRIPT.
+- Beautiful card design with 3D effect on hover.
+
+![pokemon3d](images/Pokemon.gif)
+
+I don't own the photos used in this site. The Pokémon Company has all images right reserved
